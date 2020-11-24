@@ -3,4 +3,11 @@
 We using email spam classification dataset on kaggle : https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv
 Because the algorithm is proposed to work with table dataset, they don't mention about image dataset. 
 
+Link doc: https://docs.google.com/document/d/1hM7hFqU9W_6tJJnFaaLvUEgRGluqURk4Cf_0sTVCjpQ/edit?usp=sharing
+
+## Applying Oracle Ensemble on SmoteAdaBoost 
+![Applying Oracle Ensemble on SmoteAdaBoost](img/smoteadaboost.png?raw=true "Applying Oracle Ensemble on SmoteAdaBoost")
+## Applying Oracle Ensemble on SVM 
+![Applying Oracle Ensemble on SVM](img/svm.png?raw=true "Applying Oracle Ensemble on SVM")
+
 
