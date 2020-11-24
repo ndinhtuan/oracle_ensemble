@@ -1,3 +1,7 @@
+## Original Paper 
+
+I implement following this paper : Random Oracle Ensembles for Imbalanced Data (Juan J. Rodrı́guez, José-Francisco Dı́ez-Pastor, and César Garcı́a-Osorio)
+
 ## Dataset 
 
 We using email spam classification dataset on kaggle : https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv
