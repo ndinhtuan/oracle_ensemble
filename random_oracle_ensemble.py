@@ -135,9 +135,9 @@ class SmoteAdaboost(object):
 
 # Show dataset and split dataset for training and testing
 # Phân tích và chi dữ liệu để huấn luyện và đánh giá mô hình.
-def data_analysis():
+def data_analysis(data_path):
 
-    df = pd.read_csv("emails.csv")
+    df = pd.read_csv(data_path)#"emails.csv")
     len_neg = len(df[df["Prediction"]==0])
     len_pos = len(df[df["Prediction"]==1])
 
@@ -173,7 +173,7 @@ def test_svm():
 
 def test_smoteadaboost():
     
-    train_x, test_x, train_y, test_y = data_analysis()
+    train_x, test_x, train_y, test_y = data_analysis("emails.csv")
 
     # Try with single classifier
     # Sử dụng mô hình chưa kết hợp cùng Random Oracle 
@@ -196,4 +196,4 @@ def test_smoteadaboost():
     print("Accuracy Score for Saving and Loading of Oracle ensemble: \n", rom.evaluate(test_x, test_y))
 
 if __name__=="__main__":
-    test_svm()
+    test_smoteadaboost()
